@@ -1,5 +1,5 @@
 import {Address, BigInt} from "@graphprotocol/graph-ts";
-import {EtherDeposited, StatusUpdated} from "../../generated/templates/rocketMinipoolDelegateV1/rocketMinipoolDelegateV1";
+import {EtherDeposited, StatusUpdated} from "../../generated/templates/rocketMinipoolDelegate/rocketMinipoolDelegate";
 import {Minipool, Node} from "../../generated/schema";
 import {MINIPOOLSTATUS_STAKING, MINIPOOLSTATUS_WITHDRAWABLE} from "../constants/enumconstants";
 import {ROCKET_NODE_DEPOSIT_CONTRACT_ADDRESS_V1, ROCKET_NODE_DEPOSIT_CONTRACT_ADDRESS_V2} from "../constants/contractconstants";

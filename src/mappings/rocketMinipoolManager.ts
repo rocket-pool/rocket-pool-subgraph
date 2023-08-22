@@ -4,8 +4,8 @@ import {
   MinipoolCreated,
   MinipoolDestroyed,
 } from "../../generated/rocketMinipoolManager/rocketMinipoolManager";
-import {rocketNetworkFees} from "../../generated/rocketMinipoolManagerV2/rocketNetworkFees";
-import {rocketNodeStaking} from "../../generated/rocketMinipoolManagerV2/rocketNodeStaking";
+import {rocketNetworkFees} from "../../generated/rocketMinipoolManagerV1/rocketNetworkFees";
+import {rocketNodeStaking} from "../../generated/rocketMinipoolManagerV1/rocketNodeStaking";
 import {ROCKET_NETWORK_FEES_CONTRACT_ADDRESS, ROCKET_NODE_STAKING_CONTRACT_ADDRESS} from "../constants/contractconstants";
 import {Minipool, Node} from "../../generated/schema";
 import {rocketPoolEntityFactory} from "../entityfactory";

@@ -2,7 +2,7 @@ import { BigInt, Address } from "@graphprotocol/graph-ts";
 import { generalUtilities } from "../utilities/generalutilities";
 import { rocketPoolEntityFactory } from "../entityfactory";
 import { Node, NetworkNodeTimezone } from "../../generated/schema";
-import { rocketNodeManager, NodeRegistered, NodeTimezoneLocationSet } from "../../generated/rocketNodeManager/rocketNodeManager";
+import { rocketNodeManager, NodeRegistered, NodeTimezoneLocationSet } from "../../generated/rocketNodeManagerV3/rocketNodeManager";
 
 /**
  * Occurs when a node operator registers his address with the RocketPool protocol.

@@ -6,7 +6,7 @@ import {
 } from "../../generated/rocketSmoothingPool/rocketSmoothingPool";
 import {Node} from "../../generated/schema";
 import {handleNodeRegister} from "./rocketNodeManager";
-import {rocketNodeManager, NodeRegistered, NodeTimezoneLocationSet} from "../../generated/rocketNodeManager/rocketNodeManager";
+import {rocketNodeManager, NodeRegistered, NodeTimezoneLocationSet} from "../../generated/rocketNodeManagerV3/rocketNodeManager";
 
 export function handleNodeRegistered(event: NodeRegisteredEvent): void {
   let newNode = new NodeRegistered(
